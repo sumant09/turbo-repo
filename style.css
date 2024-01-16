@@ -1,0 +1,18 @@
+.imageWrapper {
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+.imageZoom {
+	transition: 0.3s;
+}
+
+.imageZoom:hover {
+	transform: scale(1.4);
+}
+
+.card-text:hover {
+	background: #303032;
+}
