@@ -1,10 +1,13 @@
 name: Publish to Check
 
 on:
-  push:
-    branches: main
-    paths:
-      - packages/**/package.json
+  pull_request:
+    branches: 
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
 
 jobs:
   build:
