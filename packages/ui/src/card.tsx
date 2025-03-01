@@ -21,6 +21,7 @@ export function Card({
       <h2>
         {title} <span>-&gt;</span>
       </h2>
+        <p>Click to learn more</p>
       <p>{children}</p>
     </a>
   );
